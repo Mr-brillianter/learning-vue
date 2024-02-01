@@ -1,13 +1,15 @@
 <script >
-import vif from "./components/vif.vue";
+// import vif from "./components/vif.vue";
+import vfor from "./components/vfor.vue";
 export default{
-  components:{vif}
+  components:{vfor}
 }
 </script>
 
 <template>
-<vif/>
+<vfor/>
 </template>
+
 
 <style >
 
