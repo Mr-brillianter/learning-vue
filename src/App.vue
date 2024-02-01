@@ -1,16 +1,14 @@
 <script >
-// import vif from "./components/vif.vue";
-// import vfor from "./components/vfor.vue";
-import von from "./components/von.vue";
-import von2 from "./components/von2.vue";
+import event_get from "./components/event_get.vue";
+
 export default{
-  components:{von,von2}
+  components:{event_get}
 }
 </script>
 
 <template>
-<von/>
-<von2/>
+<event_get/>
+
 </template>
 
 
