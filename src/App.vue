@@ -1,6 +1,6 @@
 <script >
 import comp_test from "./components/comp_test.vue";
-
+import vif from "./components/vif.vue";
 export default{
   data(){
     return{
@@ -8,12 +8,13 @@ export default{
       
     }
   },
-  components:{comp_test}
+  components:{comp_test,vif}
 }
 </script>
 
 <template>
 <p>{{ msg}}</p>
+<vif/>
 <comp_test/>
 </template>
 
