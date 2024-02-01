@@ -1,3 +1,4 @@
+<!-- 组件导入测试 -->
 <script >
 export default{
   data(){

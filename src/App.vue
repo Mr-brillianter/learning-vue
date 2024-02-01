@@ -1,16 +1,14 @@
 <script >
-import event_get from "./components/event_get.vue";
+import computed from "./components/computed.vue";
 
 export default{
-  components:{event_get}
+  components:{computed}
 }
 </script>
 
 <template>
-<event_get/>
-
+<computed/>
 </template>
-
 
 <style >
 
